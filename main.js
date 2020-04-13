@@ -12,7 +12,6 @@ let tess = require('tesseract.js');
 
 client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);
-  client.user.setActivity("Process images, made by awooy~");
 });
 
 const modelFile = path.resolve(inceptionModelPath, 'tensorflow_inception_graph.pb');
